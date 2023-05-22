@@ -1,0 +1,127 @@
+.search-box{
+    height:36px;
+    flex:1;
+    padding-left:10px;
+    font-size: 16px;
+    border-width: 1px;
+    border-style:solid;
+    border-color:rgb(192, 192,192);
+    border-radius:2px;
+    width:0;
+    box-shadow:inset 1px 2px 3px rgba(0,0,0,0.05);
+}
+.search-box:hover{
+    border:none;
+}
+.search-box:active{
+    border:none;
+}
+.search-box::placeholder{
+    font-family: Roboto, Arial;
+    font-size: 16;
+}
+.header{
+    display:flex;
+    background-color: white;
+    flex-direction: row;
+    height:55px;
+    justify-content: space-between;
+    position:fixed;
+    top:0;
+    left:0px;
+    right:0px;
+    border-bottom-width:1px;
+    border-bottom-style: solid;
+    border-bottom-color:rgb(228,228,228);
+    z-index: 100;
+
+}
+.left-section{
+    display:flex;
+    align-items: center;
+}
+
+.middle-section{
+    flex:1;
+    margin-left: 70px;
+    margin-right: 35px;
+    display:flex;
+    align-items: center;
+    max-width:500px;
+
+}
+.right-section{
+    width:180px;
+    margin-right:20px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+}
+.ham{
+    height:24px;
+    margin-left: 24px;
+    margin-right: 20px;
+}
+.youtube-logo{
+    height:20px;
+}
+.search-button{
+    height: 40px;
+    width: 66px;
+    background-color: rgb(240,240,240);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(192,192,192);
+    margin-left: -1px;
+    margin-right:10px;
+}
+
+.search-icon{
+    height:25px;
+    margin-top: 4px;
+    padding-left: 9px;
+    padding-right: 9px;
+    
+}
+.voice-search-button{
+    height: 40px;
+    width:40px;
+    border-radius: 20px;
+    border:none;
+    background-color: rgb(245,245,245);
+}
+.voice-search-icon{
+    height:24px;
+    margin-top: 4px;
+}
+.upload-icon{
+    height:24px;
+}
+.youtube-apps{
+    height:24px;
+}
+.notification-icon{
+    height:24px;
+}
+.notif-container{
+    position:relative;
+}
+.notif-count{
+    position:absolute;
+    top:-2px;
+    right:-5px;
+    background-color: rgb(187, 18, 18);
+    color:white;
+    font-family: Roboto, Arial;
+    font-size:12px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius:10px;
+}
+.pfp{
+    height:28px;
+    border-radius: 16px;
+}
